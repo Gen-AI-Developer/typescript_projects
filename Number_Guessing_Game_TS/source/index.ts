@@ -1,7 +1,6 @@
 import inquirer from "inquirer"
 console.log('-- Simple Number Guessing Game -- ')
 const RandomValue = Math.floor(Math.random() * 10)
-
 async function evaluate() {
     const answer = await inquirer.prompt([
         {
